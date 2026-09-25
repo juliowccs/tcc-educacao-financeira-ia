@@ -3,7 +3,7 @@
 \usepackage{sbc-template}
 \usepackage{graphicx,url}
 \usepackage[utf8]{inputenc}
-\usepackage[brazil]{babel}
+\usepackage[brazilian]{babel}
 %\usepackage[latin1]{inputenc}  
 
 \begin{document} 
@@ -27,7 +27,8 @@ João Pessoa – PB – Brasil
 
 \begin{resumo} 
   No que diz respeito às finanças, os brasileiros enfrentam um desafio significativo, refletido na carência de educação financeira. Pesquisas realizadas pelo Instituto de Pesquisas Sociais, Políticas e Econômicas (IPESPE) sugerem que grande parte dos brasileiros possui pouco ou nenhum 
-  entendimento sobre o tema. Embora sistemas tradicionais de controle financeiro auxiliem no acompanhamento de receitas e despesas, a ausência de conhecimento adequado limita a tomada de decisões eficazes. Nesse contexto, a integração de informações com o uso de Inteligência Artificial Generativa, especialmente por meio de Modelos de Linguagem de Grande Escala (LLMs), surge como uma alternativa promissora para orientar os usuários de forma personalizada e didática. Este trabalho tem como objetivo projetar e desenvolver uma aplicação web de gestão financeira acompanhada de uma LLM, viabilizando sua aplicação prática no contexto da educação financeira. \\
+  entendimento sobre o tema. Embora sistemas tradicionais de controle financeiro auxiliem no acompanhamento de receitas e despesas, a ausência de conhecimento adequado limita a tomada de decisões eficazes. Nesse contexto, a integração de informações com o uso de Inteligência Artificial Generativa, especialmente por meio de Modelos de Linguagem de Grande Escala (LLMs), surge como uma alternativa promissora para orientar os usuários de forma personalizada e didática. Este trabalho tem como objetivo projetar e desenvolver uma aplicação web de gestão financeira acompanhada de uma LLM, viabilizando sua aplicação prática no contexto da educação financeira.
+
   Palavras-chave: Inteligência Artificial; LLMs; RAG; Aplicação Web; Educação Financeira.
 \end{resumo}
 
@@ -41,8 +42,10 @@ João Pessoa – PB – Brasil
 \subsection{MOTIVAÇÃO E JUSTIFICATIVA}
 
   De acordo com a pesquisa Observatório Febraban, realizada pelo Instituto de Pesquisas Sociais, Políticas e Econômicas (IPESPE) em 2025, aproximadamente 40\% dos brasileiros afirmam possuir pouco conhecimento sobre educação financeira, enquanto 15\% declaram não possuir entendimento sobre o tema, o que evidencia que a saúde financeira da população brasileira constitui um desafio estrutural relevante. Segundo a Organização para a Cooperação e Desenvolvimento Econômico \cite{oecd:2023}, baixos níveis de educação financeira impactam diretamente a capacidade dos indivíduos de realizar planejamentos econômicos adequados e tomar decisões financeiras conscientes. Nesse contexto, a pesquisa também demonstra que, embora a maioria dos entrevistados reconheça a importância da educação financeira, ainda existem limitações significativas no acesso ao conhecimento necessário para o planejamento e controle adequados das finanças pessoais \cite{febraban:2025}. \\
-  Estudos demonstram que o uso de aplicações financeiras digitais apresenta-se como ferramentas que podem contribuir para a melhoria da tomada de decisões econômicas ao ampliar o acesso às informações financeiras dos usuários \cite{carlin2023mobile}. No entanto, tal solução, isoladamente, não é suficiente, uma vez que, conforme estabelece a Comissão de Valores Mobiliários \cite{cvm:2022}, a educação financeira influencia diretamente o comportamento dos indivíduos e sua capacidade de interpretar informações e tomar decisões adequadas voltadas ao bem-estar financeiro, de modo que a ausência de conhecimento financeiro pode comprometer a compreensão dos dados disponibilizados por essas ferramentas e reduzir seu potencial de contribuição para a melhoria da saúde econômica dos indivíduos. \\
-  Diante desse cenário, a integração entre a centralização de informações financeiras e a utilização de Inteligência Artificial Generativa apresenta-se como uma promissora solução para auxiliar o usuário de forma mais ativa e personalizada. Segundo Li et al. (2023), Modelos de Linguagem de Grande Escala (LLMs) têm demonstrado capacidade de interpretar dados, identificar padrões e fornecer orientações em linguagem natural, o que pode contribuir significativamente para a educação financeira do usuário. \\
+  Estudos demonstram que o uso de aplicações financeiras digitais apresenta-se como ferramentas que podem contribuir para a melhoria da tomada de decisões econômicas ao ampliar o acesso às informações financeiras dos usuários \cite{carlin2023mobile}. No entanto, tal solução, isoladamente, não é suficiente, uma vez que, conforme estabelece a Comissão de Valores Mobiliários \cite{cvm:2022}, a educação financeira influencia diretamente o comportamento dos indivíduos e sua capacidade de interpretar informações e tomar decisões adequadas voltadas ao bem-estar financeiro, de modo que a ausência de conhecimento financeiro pode comprometer a compreensão dos dados disponibilizados por essas ferramentas e reduzir seu potencial de contribuição para a melhoria da saúde econômica dos indivíduos.
+
+  Diante desse cenário, a integração entre a centralização de informações financeiras e a utilização de Inteligência Artificial Generativa apresenta-se como uma promissora solução para auxiliar o usuário de forma mais ativa e personalizada. Segundo Li et al. (2023), Modelos de Linguagem de Grande Escala (LLMs) têm demonstrado capacidade de interpretar dados, identificar padrões e fornecer orientações em linguagem natural, o que pode contribuir significativamente para a educação financeira do usuário.
+
   Assim, surge o seguinte questionamento: como a adição de uma inteligência artificial generativa a um sistema de controle financeiro pode oferecer suporte e colaborar com a educação financeira do usuário? Mais especificamente, busca-se analisar a capacidade de um modelo de identificar problemas financeiros, fornecer orientações didáticas e contribuir para a tomada de decisões financeiras mais assertivas, conscientes e sustentáveis. Este estudo visa projetar, desenvolver e avaliar a viabilidade dessa integração em um protótipo de aplicação web focada em educação financeira personalizada, ampliando o acesso a ferramentas inteligentes de apoio à gestão econômica individual.
 
 \subsection{OBJETIVO GERAL}
@@ -70,20 +73,26 @@ João Pessoa – PB – Brasil
 
   \subsection{CLASSIFICAÇÃO DA PESQUISA}
 
-    Esta pesquisa possui por objetivo ser aplicada, exploratória, bibliográfica e experimental. Gil (2022) afirma que a pesquisa aplicada é voltada à aquisição de conhecimento com foco em aplicação numa situação específica. Neste escopo, a finalidade prática reside no desenvolvimento de uma solução tecnológica em formato de aplicação web capaz de sanar dúvidas e contribuir para o letramento financeiro pessoal. Além disso, a natureza exploratória é justificada pela pesquisa ter como propósito “proporcionar maior familiaridade com o problema, com vistas a torná-lo mais explícito e construir hipóteses” (GIL, 2022, p. 27). \\
+    Esta pesquisa possui por objetivo ser aplicada, exploratória, bibliográfica e experimental. Gil (2022) afirma que a pesquisa aplicada é voltada à aquisição de conhecimento com foco em aplicação numa situação específica. Neste escopo, a finalidade prática reside no desenvolvimento de uma solução tecnológica em formato de aplicação web capaz de sanar dúvidas e contribuir para o letramento financeiro pessoal. Além disso, a natureza exploratória é justificada pela pesquisa ter como propósito “proporcionar maior familiaridade com o problema, com vistas a torná-lo mais explícito e construir hipóteses” (GIL, 2022, p. 27).
+
     Em relação à fundamentação teórica para o mapeamento dos conceitos de finanças e economia comportamental, será adotada a pesquisa bibliográfica, que “é elaborada com base em material já publicado” (GIL, 2022, p. 29). De forma complementar, adota-se a pesquisa experimental que, de acordo com Gil (2022), tem como propósito determinar um objeto de estudo, selecionar as variáveis que o influenciam e definir formas de controle, presentes por meio da prototipagem do software, em que, dentro de cenários controlados, validam-se as interações entre o usuário, o sistema e o modelo de inteligência artificial generativa
 
   \subsection{ARQUITETURA DO SISTEMA}
 
-    Para tornar o teste dos modelos viável em um cenário em que um usuário do sistema fornece as informações, será necessário o desenvolvimento de um protótipo fundamentado em uma arquitetura cliente-servidor. \\
-    A interface de usuário adotará a tecnologia do ecossistema React, por meio do framework Next.js e TypeScript. Essa escolha garante a tipagem estática do código e de componentes interativos na renderização dos dashboards financeiros. \\
+    Para tornar o teste dos modelos viável em um cenário em que um usuário do sistema fornece as informações, será necessário o desenvolvimento de um protótipo fundamentado em uma arquitetura cliente-servidor.
+
+    A interface de usuário adotará a tecnologia do ecossistema React, por meio do framework Next.js e TypeScript. Essa escolha garante a tipagem estática do código e de componentes interativos na renderização dos dashboards financeiros.
+
     A lógica de negócios e a comunicação com o banco de dados PostgreSQL serão estruturadas em uma API Python, utilizando Django REST. O servidor é responsável por receber os dados inseridos pelo usuário, processá-los, estruturá-los em um prompt em formato JSON e gerenciar as requisições HTTP para o modelo de linguagem.
 
   \subsection{INTEGRAÇÃO DA INTELIGÊNCIA ARTIFICIAL E RAG}
 
-    A inteligência artificial será integrada utilizando a técnica de Retrieval-Augmented Generation (RAG), utilizando uma abordagem baseada em recuperação contextual de informações. Para a implementação da solução, será adotada uma arquitetura RAG 2.0, na qual os dados recuperados passam por uma etapa adicional de processamento e contextualização antes de serem enviados ao modelo de linguagem, permitindo respostas mais específicas e alinhadas ao domínio da aplicação. \\
-    A base de conhecimento será estruturada utilizando um banco de dados vetorial, responsável pelo armazenamento de embeddings gerados a partir de informações financeiras do usuário e conteúdos técnicos relacionados a educação financeira. Entre as tecnologias consideradas para essa finalidade estão ferramentas como FAISS (Facebook Al Similarity Search) ou ChromaDB, que possibilitam a indexação e recuperação eficiente de informações semânticas relevantes. \\
-    O fluxo de integração entre os componentes da arquitetura será implementado utilizando o framework LangChain, responsável pela orquestração das etapas de geração de embeddings, recuperação de documentos relevantes e construção do contexto enviado ao modelo de linguagem. \\
+    A inteligência artificial será integrada utilizando a técnica de Retrieval-Augmented Generation (RAG), utilizando uma abordagem baseada em recuperação contextual de informações. Para a implementação da solução, será adotada uma arquitetura RAG 2.0, na qual os dados recuperados passam por uma etapa adicional de processamento e contextualização antes de serem enviados ao modelo de linguagem, permitindo respostas mais específicas e alinhadas ao domínio da aplicação.
+
+    A base de conhecimento será estruturada utilizando um banco de dados vetorial, responsável pelo armazenamento de embeddings gerados a partir de informações financeiras do usuário e conteúdos técnicos relacionados a educação financeira. Entre as tecnologias consideradas para essa finalidade estão ferramentas como FAISS (Facebook Al Similarity Search) ou ChromaDB, que possibilitam a indexação e recuperação eficiente de informações semânticas relevantes.
+
+    O fluxo de integração entre os componentes da arquitetura será implementado utilizando o framework LangChain, responsável pela orquestração das etapas de geração de embeddings, recuperação de documentos relevantes e construção do contexto enviado ao modelo de linguagem.
+
     O modelo de linguagem será integrado por meio da API da OpenAI, sendo responsável pela interpretação dos dados recuperados e pela geração das respostas em linguagem natural. Dessa forma, o sistema anexará ao contexto da requisição tanto o histórico financeiro do usuário quanto informações provenientes da base de conhecimento, permitindo que o modelo utilize dados específicos durante o processo de geração. Essa estratégia contribui para reduzir riscos de alucinação e aumentar a consistência das respostas produzidas.
 
 
@@ -120,8 +129,10 @@ Esta seção do estudo apresenta os principais conceitos e tecnologias que funda
 
     \subsubsection{ARQUITETURA CLIENTE-SERVIDOR}
 
-      Ciriano e Scombatti Pinto (2025) apontam que a evolução das arquiteturas de software ocorreu em resposta às demandas por escalabilidade, flexibilidade e melhor organização estrutural dos sistemas computacionais. Os autores ressaltam que aplicações modernas passaram a exigir modelos capazes de distribuir responsabilidades e facilitar a comunicação entre componentes, tornando a arquitetura cliente-servidor uma das abordagens mais empregadas em ambientes distribuídos. \\
-      Nessa perspectiva, os autores destacam que estudos clássicos de Sommerville (2019) definem a arquitetura cliente-servidor como um modelo em que as responsabilidades do sistema são divididas entre clientes e servidores. Enquanto o cliente é responsável pela interação com o usuário e pela solicitação de recursos, o servidor realiza o processamento das requisições, executa regras de negócio e disponibiliza os serviços solicitados. Essa separação estrutural reduz a dependência entre componentes e contribui para uma organização mais eficiente do sistema. \\
+      Ciriano e Scombatti Pinto (2025) apontam que a evolução das arquiteturas de software ocorreu em resposta às demandas por escalabilidade, flexibilidade e melhor organização estrutural dos sistemas computacionais. Os autores ressaltam que aplicações modernas passaram a exigir modelos capazes de distribuir responsabilidades e facilitar a comunicação entre componentes, tornando a arquitetura cliente-servidor uma das abordagens mais empregadas em ambientes distribuídos.
+
+      Nessa perspectiva, os autores destacam que estudos clássicos de Sommerville (2019) definem a arquitetura cliente-servidor como um modelo em que as responsabilidades do sistema são divididas entre clientes e servidores. Enquanto o cliente é responsável pela interação com o usuário e pela solicitação de recursos, o servidor realiza o processamento das requisições, executa regras de negócio e disponibiliza os serviços solicitados. Essa separação estrutural reduz a dependência entre componentes e contribui para uma organização mais eficiente do sistema.
+
       Complementando essa visão, os autores (2025) também reforçam, a partir dos fundamentos apresentados por Bass, Clements e Kazman, que modelos arquiteturais modernos buscam favorecer características como modularidade, facilidade de manutenção e escalabilidade. Sob essa perspectiva, aplicações web utilizam amplamente a arquitetura cliente-servidor para separar a camada responsável pela interface do usuário das camadas relacionadas ao processamento de dados e gerenciamento das informações, permitindo o desenvolvimento de aplicações mais flexíveis e adequadas a ambientes distribuídos
 
     \subsubsection{API’S E INTEGRAÇÃO DE SISTEMAS}
@@ -144,6 +155,33 @@ Esta seção do estudo apresenta os principais conceitos e tecnologias que funda
     \subsubsection{RAG}
 
       Segundo Gao et al. (2024), a técnica Retrieval-Augmented Generation (RAG) consiste em um processo de otimização das respostas geradas por LLMs, no qual o modelo consulta uma base de dados externa e confiável durante a geração das respostas. Dessa forma, o artigo conceitua que o RAG combina os conhecimentos pré-treinados do modelo com informações atualizadas e específicas, reduzindo erros e aumentando a qualidade das respostas. Para os autores, essa abordagem melhora a precisão e a confiabilidade dos sistemas baseados em linguagem natural.
+
+\section{DESENVOLVIMENTO}
+
+  \subsection{MAPEAMENTO DA BASE DE CONHECIMENTO FINANCEIRO}
+
+    Para capacitar o sistema a fornecer respostas confiáveis e contextualizadas, realizou-se o mapeamento dos principais conceitos de finanças pessoais, gestão orçamentária e economia comportamental. O núcleo consultivo da base foi estruturado a partir dos seguintes documentos: o Caderno de Educação Financeira do Banco Central do Brasil, a coleção TOP de Planejamento Financeiro Pessoal, o Caderno CVM Volume 1: Vieses do Investidor e as diretrizes da Estratégia Nacional de Educação Financeira (ENEF).
+
+    A transformação desse material normativo e extenso em artefatos indexáveis demandou um \textit{pipeline} estruturado de pré-processamento, particionamento semântico e enriquecimento de metadados. A primeira etapa consistiu na limpeza dos documentos, removendo elementos que não agregam valor semântico, como capas, sumários, rodapés, exercícios e créditos.
+
+    Em seguida, em vez de um extrator de PDF tradicional, que tende a desconstruir a ordem lógica dos documentos, foi utilizado o \textit{Docling}. A biblioteca utiliza modelos de visão computacional voltados ao reconhecimento avançado de \textit{page layout} e estruturas tabulares, preservando a coesão semântica de parágrafos, cabeçalhos e tabelas.
+
+    O particionamento foi executado com o mecanismo \textit{HybridChunker}, calibrado para um limite de 450 \textit{tokens}, dimensionamento compatível com a janela do modelo de vetorização \textit{sentence-transformers/paraphrase-multilingual-mpnet-base-v2}. Para evitar que os blocos ficassem curtos demais ou incompletos, configurou-se o agrupamento de trechos vizinhos e a repetição dos cabeçalhos em tabelas que foram divididas.
+
+    Por fim, cada pedaço de texto recebeu metadados essenciais: um identificador único, o documento de origem, as páginas correspondentes, a seção e o assunto principal. Dessa forma, além de encontrar o conteúdo pelo contexto, a IA consegue indicar com precisão a fonte e a página consultada, o que ajuda a evitar respostas inventadas ou imprecisas.
+
+    O resultado desta etapa consiste em um arquivo consolidado contendo os fragmentos estruturados, conforme ilustrado na Figura~\ref{fig:exemplo_chunk}. Essa padronização permite tanto a busca semântica pelo conteúdo textual quanto a extração direta dos metadados para citação e auditoria pelo sistema.
+
+    \begin{figure}[ht]
+    \centering
+    \includegraphics[width=0.75\textwidth]{caderno_cidadania_financeira_tratado_c0079.png}
+    \caption{Exemplo da estrutura JSON de um fragmento indexável gerado no pipeline.}
+    \label{fig:exemplo_chunk}
+    \end{figure}
+
+    A partir dessa organização, cada partição preserva seu identificador único e a hierarquia temática do documento original. Com isso, o pipeline garante a integridade das referências normativas durante as consultas realizadas pela inteligência artificial.
+
+  \subsection{ARQUITETURA E DESENVOLVIMENTO DA APLICAÇÃO WEB}
 
 \nocite{*}
 \bibliographystyle{sbc}
