@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.9.24)  14 OCT 2026 21:44
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.9.24)  15 OCT 2026 05:41
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -275,24 +275,35 @@ Package pdftex.def Info: caderno_cidadania_financeira_tratado_c0079.png  used on
 LaTeX Font Info:    Trying to load font information for OT1+phv on input line 178.
  (C:\Users\julio\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1phv.fd
 File: ot1phv.fd 2020/03/25 scalable font definitions for OT1/phv.
-) [8 <./caderno_cidadania_financeira_tratado_c0079.png>] [9] (main.bbl [10]) [11] (main.aux)
+) [8 <./caderno_cidadania_financeira_tratado_c0079.png>] [9]
+<financia_captura1.png, id=44, 1919.17pt x 1638.12pt>
+File: financia_captura1.png Graphic file (type png)
+<use financia_captura1.png>
+Package pdftex.def Info: financia_captura1.png  used on input line 208.
+(pdftex.def)             Requested size: 341.43307pt x 291.42447pt.
+<financia_captura2.png, id=45, 1919.17pt x 2382.9025pt>
+File: financia_captura2.png Graphic file (type png)
+<use financia_captura2.png>
+Package pdftex.def Info: financia_captura2.png  used on input line 217.
+(pdftex.def)             Requested size: 341.43307pt x 423.9226pt.
+ [10 <./financia_captura1.png (PNG copy)>] [11 <./financia_captura2.png (PNG copy)>] (main.bbl [12]) [13] (main.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-12-24>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 5913 strings out of 467871
- 103004 string characters out of 5418376
- 531858 words of memory out of 5000000
- 34703 multiletter control sequences out of 15000+600000
+ 5929 strings out of 467871
+ 103435 string characters out of 5418376
+ 532990 words of memory out of 5000000
+ 34719 multiletter control sequences out of 15000+600000
  645739 words of font info for 72 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 72i,10n,79p,1201b,426s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 72i,10n,79p,1212b,426s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/julio/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/julio/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/julio/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Users/julio/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/julio/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/julio/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/julio/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/julio/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (12 pages, 347499 bytes).
+Output written on main.pdf (14 pages, 1377817 bytes).
 PDF statistics:
- 85 PDF objects out of 1000 (max. 8388607)
+ 94 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 16 words of extra memory for PDF output out of 10000 (max. 10000000)
 
