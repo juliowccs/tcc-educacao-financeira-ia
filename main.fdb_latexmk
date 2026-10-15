@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex main"] 1790298587.85486 "main.aux" "main.bbl" "main" 1790298589.41938 0
-  "./sbc-template.bib" 1790280355 6656 7ba491bedde22b6e3982a50bbc98cb40 ""
-  "./sbc.bst" 1789405366 21864 a668496cca21cfdd211f7fb5f0d57565 ""
-  "main.aux" 1790298588 4696 6f6b0be6468d082523c42151ed8b0a94 "pdflatex"
+["bibtex main"] 1792021561.81672 "main.aux" "main.bbl" "main" 1792022691.73269 0
+  "./sbc-template.bib" 1792020104 6656 7ba491bedde22b6e3982a50bbc98cb40 ""
+  "./sbc.bst" 1792020122 21864 a668496cca21cfdd211f7fb5f0d57565 ""
+  "main.aux" 1792022691 5133 be35c446764aa4303efcf87a8dd9cbab "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1790298588.10156 "c:/tcc/latex/main.tex" "main.pdf" "main" 1790298589.4201 0
+["pdflatex"] 1792022690.2295 "c:/tcc/latex/main.tex" "main.pdf" "main" 1792022691.73339 0
   "C:/Users/julio/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1790268156 82507 a9eef8696c92627b87e9975edea03b2a ""
   "C:/Users/julio/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1790268026 13333487 f35b9fb82c5fdec68fe1b555e6a257fa ""
   "C:/Users/julio/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc" 1458473887 4993 80dc9bab7f31fb78a000ccfed0e27cab ""
@@ -92,13 +92,13 @@
   "C:/Users/julio/AppData/Local/Programs/MiKTeX/tex/latex/psnfss/ts1ptm.fd" 1585253778 653 96f56dc5d1ef1fe1121f1cfeec70ee0c ""
   "C:/Users/julio/AppData/Local/Programs/MiKTeX/tex/latex/titlesec/titlesec.sty" 1736608268 48766 87a17a4ef312a39cd43896e34a679a56 ""
   "C:/Users/julio/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
-  "c:/tcc/latex/main.tex" 1790298585 27496 dd004b6572d8da5712b23666de4a6101 ""
+  "c:/tcc/latex/main.tex" 1792022689 36267 d6e63aa4219b2623ba2d86a06f3810d8 ""
   "caderno_cidadania_financeira_tratado_c0079.png" 1790297687 450771 8336767eb10360d97a658425d181f0b7 ""
-  "capa.tex" 1790278470 1073 0ede427e7c7b29abcdf06c2b2b6b492b ""
-  "main.aux" 1790298588 4696 6f6b0be6468d082523c42151ed8b0a94 "pdflatex"
-  "main.bbl" 1790298588 4532 1b7635b6e354d256777a213c567cbe20 "bibtex main"
-  "main.tex" 1790298585 27496 dd004b6572d8da5712b23666de4a6101 ""
-  "sbc-template.sty" 1790283530 6354 ef0788d4c6cf0266f9dc5795c9d74500 ""
+  "capa.tex" 1792020078 1073 0ede427e7c7b29abcdf06c2b2b6b492b ""
+  "main.aux" 1792022691 5133 be35c446764aa4303efcf87a8dd9cbab "pdflatex"
+  "main.bbl" 1792021562 4532 1b7635b6e354d256777a213c567cbe20 "bibtex main"
+  "main.tex" 1792022689 36267 d6e63aa4219b2623ba2d86a06f3810d8 ""
+  "sbc-template.sty" 1792020114 6354 ef0788d4c6cf0266f9dc5795c9d74500 ""
   (generated)
   "main.aux"
   "main.log"
