@@ -5,8 +5,8 @@ Assef, R. (2024).
 \newblock {\em Princ{\'\i}pios de Finan{\c{c}}as e Mercado Financeiro}.
 \newblock Editora FGV, Rio de Janeiro.
 
-\bibitem[{Banco Central do Brasil} 2026]{bcb:inflacao}
-{Banco Central do Brasil} (2026).
+\bibitem[{Banco Central do Brasil} 2024]{bcb:inflacao}
+{Banco Central do Brasil} (2024).
 \newblock O que {\'e} infla{\c{c}}{\~a}o?
 \newblock Acesso em: 11 mai. 2026.
 
@@ -19,6 +19,11 @@ Barbierato, E. and Gatti, A. (2024).
 Carlin, B., Olafsson, A., and Pagel, M. (2023).
 \newblock Mobile apps and financial decision making.
 \newblock {\em Review of Finance}, 27(3):977--996.
+
+\bibitem[Ciriano and Scombatti~Pinto 2025]{ciriano2025arquitetura}
+Ciriano, G. and Scombatti~Pinto, G. (2025).
+\newblock {\em The Evolution of Software Architecture: From Monolith to
+  Microservices}.
 
 \bibitem[{CVM - Comiss{\~a}o de Valores Mobili{\'a}rios} 2022]{cvm:2022}
 {CVM - Comiss{\~a}o de Valores Mobili{\'a}rios} (2022).

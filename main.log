@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.9.24)  14 OCT 2026 21:04
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.9.24)  14 OCT 2026 21:44
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -282,15 +282,15 @@ L3 programming layer <2025-12-24>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 5912 strings out of 467871
- 102980 string characters out of 5418376
- 531823 words of memory out of 5000000
- 34702 multiletter control sequences out of 15000+600000
+ 5913 strings out of 467871
+ 103004 string characters out of 5418376
+ 531858 words of memory out of 5000000
+ 34703 multiletter control sequences out of 15000+600000
  645739 words of font info for 72 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 72i,10n,79p,1177b,426s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 72i,10n,79p,1201b,426s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/julio/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/julio/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/julio/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Users/julio/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/julio/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/julio/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/julio/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/julio/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (12 pages, 347439 bytes).
+Output written on main.pdf (12 pages, 347499 bytes).
 PDF statistics:
  85 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

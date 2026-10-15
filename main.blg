@@ -5,44 +5,46 @@ Reallocating 'name_of_file' (item size: 1) to 4 items.
 The style file: sbc.bst
 Reallocating 'name_of_file' (item size: 1) to 13 items.
 Database file #1: sbc-template.bib
-You've used 20 entries,
+Warning--empty publisher in ciriano2025arquitetura
+You've used 21 entries,
             1935 wiz_defined-function locations,
-            568 strings with 6657 characters,
-and the built_in function-call counts, 6768 in all, are:
-= -- 636
-> -- 310
-< -- 13
-+ -- 114
-- -- 104
-* -- 543
-:= -- 1265
-add.period$ -- 61
-call.type$ -- 20
-change.case$ -- 146
-chr.to.int$ -- 20
-cite$ -- 20
-duplicate$ -- 259
-empty$ -- 437
-format.name$ -- 130
-if$ -- 1273
+            570 strings with 6780 characters,
+and the built_in function-call counts, 7084 in all, are:
+= -- 663
+> -- 323
+< -- 14
++ -- 120
+- -- 108
+* -- 569
+:= -- 1320
+add.period$ -- 63
+call.type$ -- 21
+change.case$ -- 152
+chr.to.int$ -- 21
+cite$ -- 22
+duplicate$ -- 273
+empty$ -- 460
+format.name$ -- 137
+if$ -- 1333
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 23
-newline$ -- 104
-num.names$ -- 60
-pop$ -- 127
+missing$ -- 25
+newline$ -- 108
+num.names$ -- 63
+pop$ -- 137
 preamble$ -- 1
-purify$ -- 151
+purify$ -- 158
 quote$ -- 0
-skip$ -- 203
+skip$ -- 213
 stack$ -- 0
-substring$ -- 320
-swap$ -- 16
+substring$ -- 334
+swap$ -- 17
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 106
-warning$ -- 0
-while$ -- 45
+type$ -- 110
+warning$ -- 1
+while$ -- 47
 width$ -- 0
-write$ -- 260
+write$ -- 270
+(There was 1 warning)
